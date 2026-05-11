@@ -38,9 +38,9 @@ header img {
 h1 {
     font-family: "Unbounded", sans-serif;
     font-weight: bold;
-    font-size: 90px;
+    font-size: 64px;
     text-align: center;
-    margin-top: 60px;
+    margin: 60px auto 0 auto;
 }
 
 h1 span{
@@ -79,7 +79,7 @@ a:hover {
 section img{
     display: block;
     width: 792px;
-    height: 446;
+    height: 446px;
     margin: 0 auto;
 }
 
@@ -91,9 +91,13 @@ section img{
     }
 
     p {
-        width: 648px;
+        width: 375px;
     }
 
+    section img{
+        width: 49.5rem;
+        height: 27rem;
+    }
 }
 
 @media(max-width: 375px){
@@ -108,7 +112,7 @@ section img{
 
     p{
         font-size: 20px;
-        width: 340px;
+        width: auto;
     }
     
     a{
